@@ -46,7 +46,4 @@ npm install
 npm run dev
 ```
 
----
-
-### Made with ❤️ by Sabesh
 
