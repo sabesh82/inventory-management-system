@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Background colors */
+  --primary-bg: 255, 89, 94; /* primary background - #ff595e rgb(255, 89, 94) */
+  --primary-bg-dark: 10, 0, 17; /* primary background dark - #0A0011 rgb(10, 0, 17) */
+  --secondary-bg: 226, 215, 255; /* secondary background - #E2D7FF rgb(226, 215, 255) */
+}
+
+.btn-primary {
+  /* Button primary styles */
+  --btn-bg-color: 255, 89, 94; /* button background color - #ff595e rgb(255, 89, 94) */
+  --btn-text-color: 255, 255, 255; /* button text color - #ffffff rgb(255, 255, 255) */
+  --btn-spinner-color: 255, 255, 255; /* button spinner color - #ffffff rgb(255, 255, 255) */
+  --btn-bg-hover-color: 255, 71, 78; /* button background hover color - #ff474e rgb(255, 71, 78) */
+  --btn-bg-active-color: 255, 71, 78; /* button background active color - #ff474e rgb(255, 71, 78) */
+  --btn-ring-color: 255, 71, 78; /* button ring color - #ff474e rgb(255, 71, 78) */
+  --btn-disabled-bg-color: 201, 201, 201; /* button disabled background color - #C9C9C9 rgb(201, 201, 201) */
+  --btn-disabled-text-color: 255, 255, 255; /* button disabled text color - #ffffff rgb(255, 255, 255) */
+}
+
+.btn-ghost {
+  /* Button ghost styles */
+  --btn-bg-color: transparent; /* button background color - transparent */
+  --btn-text-color: 31, 41, 55; /* button text color - #1F2937 rgb(31, 41, 55) */
+  --btn-spinner-color: 31, 41, 55; /* button spinner color - #1F2937 rgb(31, 41, 55) */
+  --btn-bg-hover-color: transparent; /* button background hover color - transparent */
+  --btn-bg-active-color: transparent; /* button background active color - transparent */
+  --btn-ring-color: 209, 213, 219; /* button ring color - #D1D5DB rgb(209, 213, 219) */
+  --btn-disabled-bg-color: 201, 201, 201; /* button disabled background color - #C9C9C9 rgb(201, 201, 201) */
+  --btn-disabled-text-color: 255, 255, 255; /* button disabled text color - #ffffff rgb(255, 255, 255) */
+}
+
+.btn-unstyled {
+  /* Button unstyled (default) styles */
+  --btn-bg-color: 255, 255, 255; /* button background color - #ffffff rgb(255, 255, 255) */
+  --btn-text-color: 0, 0, 0; /* button text color - #000000 rgb(0, 0, 0) */
+  --btn-spinner-color: 0, 0, 0; /* button spinner color - #000000 rgb(0, 0, 0) */
+  --btn-bg-hover-color: transparent; /* button background hover color - transparent */
+  --btn-bg-active-color: transparent; /* button background active color - transparent */
+  --btn-ring-color: transparent; /* button ring color - transparent */
+  --btn-disabled-bg-color: 201, 201, 201; /* button disabled background color - #C9C9C9 rgb(201, 201, 201) */
+  --btn-disabled-text-color: 255, 255, 255; /* button disabled text color - #ffffff rgb(255, 255, 255) */
+}
+
+.btn-danger {
+  /* Button danger styles */
+  --btn-bg-color: 239, 68, 68; /* button background color - #EF4444 rgb(239, 68, 68) */
+  --btn-text-color: 255, 255, 255; /* button text color - #FFFFFF rgb(255, 255, 255) */
+  --btn-spinner-color: 255, 255, 255; /* button spinner color - #FFFFFF rgb(255, 255, 255) */
+  --btn-bg-hover-color: 220, 38, 38; /* button background hover color - #DC2626 rgb(220, 38, 38) */
+  --btn-bg-active-color: 220, 38, 38; /* button background active color - #DC2626 rgb(220, 38, 38) */
+  --btn-ring-color: 220, 38, 38; /* button ring color - #DC2626 rgb(220, 38, 38) */
+  --btn-disabled-color: 252, 165, 165; /* button disabled background color - #FCA5A5 rgb(252, 165, 165) */
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
